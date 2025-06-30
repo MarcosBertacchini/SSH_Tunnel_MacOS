@@ -139,8 +139,8 @@ def timeout_handler(signum, frame):
 LOCAL_PORT = 5901			# Porta local para redirecionamento do túnel
 WIN_IP = "169.254.1.20"		# Endereço IP da máquina Windows de destino
 WIN_VNC_PORT = 5900			# Porta VNC padrão na máquina Windows
-MACMINI_USER = "gdlocal"	# Usuário para login no servidor intermediário
-VNCP = "123123"				# Senha VNC da máquina Windows
+MACMINI_USER = "usuario"	# Usuário para login no servidor intermediário
+VNCP = "senha"				# Senha VNC da máquina Windows
 SSH_TIMEOUT = 30			# Timeout para conexão SSH em segundos
 
 def main():
